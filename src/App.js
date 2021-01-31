@@ -15,7 +15,6 @@ function App() {
 
   const logIn = () => {
     setCurrentUser({ currentUser: user });
-    console.log('hola', currentUser);
   };
 
   const logOut = () => {

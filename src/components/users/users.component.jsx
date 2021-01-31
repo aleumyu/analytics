@@ -8,7 +8,7 @@ const usersData = USERS_DATA;
 
 const Users = () => (
   <div className="pages">
-    <h1>New vs Returnning </h1>
+    <h2>New vs Returnning </h2>
     <UsersTable {...usersData} />
     <PieChart {...usersData} />
   </div>

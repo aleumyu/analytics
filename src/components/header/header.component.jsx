@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import './header.style.scss';
+
 const Header = ({ currentUser, logIn, logOut }) => {
   console.log('hi', currentUser);
   return (
@@ -11,7 +13,7 @@ const Header = ({ currentUser, logIn, logOut }) => {
       <div className="options">
         {currentUser ? (
           <div className="option">
-            <span>{`wellcome back ${currentUser.name}!`}</span>
+            <span className="welcome-msg">{`Welcome back, ${currentUser.name}!`}</span>
             <button onClick={logOut}>Log Out</button>
           </div>
         ) : (
