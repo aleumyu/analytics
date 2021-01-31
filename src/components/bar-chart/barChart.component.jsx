@@ -11,7 +11,7 @@ const BarChart = ({ pagesData }) => {
       {
         borderColor: 'rgba(135, 206, 235)',
         backgroundColor: 'rgba(135, 206, 235)',
-        barThickness: 25,
+        barThickness: 20,
         data: views,
       },
     ],

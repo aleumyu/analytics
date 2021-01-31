@@ -12,7 +12,11 @@ const UsersTable = ({ newUsers, returningUsers }) => {
         </thead>
         <tbody>
           <tr>
+            <td>New Users</td>
             <td>{newUsers}</td>
+          </tr>
+          <tr>
+            <td>Returning Users</td>
             <td>{returningUsers}</td>
           </tr>
         </tbody>

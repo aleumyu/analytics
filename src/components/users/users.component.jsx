@@ -7,10 +7,10 @@ import USERS_DATA from './users.datasource';
 const usersData = USERS_DATA;
 
 const Users = () => (
-  <div className="pages">
+  <div className="users">
     <h2>New vs Returnning </h2>
-    <UsersTable {...usersData} />
-    <PieChart {...usersData} />
+    <UsersTable className="usersTable" {...usersData} />
+    <PieChart className="pieChart" {...usersData} />
   </div>
 );
 
