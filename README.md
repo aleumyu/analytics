@@ -1,6 +1,6 @@
 # Pelmorex Analytics
 
-A simple analytics dashboard as a part of analytics system design assessment.
+A simple analytics dashboard developed with React as a part of analytics system design assessment.
 
 ![Pelmorex Analytics](screen.gif)
 
