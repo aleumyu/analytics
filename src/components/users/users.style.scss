@@ -1,24 +1,13 @@
-.page {
+.users-data {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px 80px;
+  width: 100%;
 }
 
-.usersTable {
-  min-width: 30%;
-  height: 240px;
-  flex: 1 1 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pieChart {
-  min-width: 30%;
-  height: 240px;
-  flex: 1 1 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media (min-width: 769px) {
+  .users-data {
+    width: 30vw;
+  }
 }

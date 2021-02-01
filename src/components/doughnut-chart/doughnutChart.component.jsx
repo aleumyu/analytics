@@ -13,12 +13,13 @@ const PieChart = ({ newUsers, returningUsers }) => {
     ],
   };
   const options = {
+    maintainAspectRatio: false,
     legend: {
       display: false,
     },
   };
   return (
-    <div className="pie">
+    <div className="pieChart">
       <Pie data={data} options={options} />
     </div>
   );

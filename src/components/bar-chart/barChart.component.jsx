@@ -17,6 +17,7 @@ const BarChart = ({ pagesData }) => {
     ],
   };
   const options = {
+    maintainAspectRatio: false,
     legend: {
       display: false,
     },

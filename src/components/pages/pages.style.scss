@@ -1,5 +1,12 @@
 .page-data {
-  display: flex;
-  justify-content: space-between;
-  width: 70vw;
+  margin-bottom: 50px;
+  width: 80vw;
+}
+
+@media (min-width: 769px) {
+  .page-data {
+    display: flex;
+    justify-content: space-between;
+    width: 69vw;
+  }
 }

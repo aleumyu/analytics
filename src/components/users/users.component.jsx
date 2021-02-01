@@ -9,8 +9,10 @@ const usersData = USERS_DATA;
 const Users = () => (
   <div className="users">
     <h2>New vs Returnning </h2>
-    <UsersTable className="usersTable" {...usersData} />
-    <PieChart className="pieChart" {...usersData} />
+    <div className="users-data">
+      <UsersTable className="usersTable" {...usersData} />
+      <PieChart className="pieChart" {...usersData} />
+    </div>
   </div>
 );
 
