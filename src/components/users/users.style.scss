@@ -1,4 +1,4 @@
-.users-data {
+.users {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,7 +7,11 @@
 }
 
 @media (min-width: 769px) {
-  .users-data {
+  .users {
     width: 30vw;
   }
+}
+
+canvas.chartjs-render-monitor {
+  min-width: 500px !important;
 }

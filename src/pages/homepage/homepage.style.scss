@@ -1,5 +1,10 @@
 .homepage {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+  display: block;
+}
+
+@media (min-width: 1025px) {
+  .homepage {
+    display: flex;
+    justify-content: space-between;
+  }
 }
